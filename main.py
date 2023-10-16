@@ -3,7 +3,7 @@ import sys
 import numpy as np
 
 
-img1 = cv.imread(cv.samples.findFile("goebbels.jpg"))
+img1 = cv.imread(cv.samples.findFile("nasty_cat.jpg"))
 img2 = cv.cvtColor(img1, cv.COLOR_RGB2BGR)
 
 gauss = cv.GaussianBlur(img1, (111, 111), 0)
